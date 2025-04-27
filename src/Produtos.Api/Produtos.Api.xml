@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Produtos.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Produtos.Api.Controllers.CategoriaController.PostAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.CriarCategoriaRequest,Produtos.Application.Responses.CategoriaResponse},Produtos.Application.Requests.CriarCategoriaRequest,System.Threading.CancellationToken)">
+             <summary>
+             Criar Categoria
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.CategoriaController.PutAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.EditarCategoriaRequest,Produtos.Application.Responses.CategoriaResponse},Produtos.Application.Requests.EditarCategoriaRequest,System.Threading.CancellationToken)">
+             <summary>
+             Editar Categoria
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.CategoriaController.GetAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.ListarCagegoriasRequest,System.Collections.Generic.IEnumerable{Produtos.Application.Responses.CategoriaResponse}},System.String,System.Threading.CancellationToken)">
+             <summary>
+             Listar Categorias
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.CategoriaController.GetAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.BuscarCategoriaPorIdRequest,Produtos.Application.Responses.CategoriaResponse},System.Guid,System.Threading.CancellationToken)">
+             <summary>
+             Buscar Categoria por id
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.ProdutoController.PostAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.CriarProdutoRequest,Produtos.Application.Responses.ProdutoResponse},Produtos.Application.Requests.CriarProdutoRequest,System.Threading.CancellationToken)">
+             <summary>
+             Criar Produto
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.ProdutoController.PutAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.EditarProdutoRequest,Produtos.Application.Responses.ProdutoResponse},Produtos.Application.Requests.EditarProdutoRequest,System.Threading.CancellationToken)">
+             <summary>
+             Editar Produto
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.ProdutoController.GetAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.ListarProdutoRequest,System.Collections.Generic.IEnumerable{Produtos.Application.Responses.ProdutoResponse}},Produtos.Application.Requests.ListarProdutoRequest,System.Threading.CancellationToken)">
+             <summary>
+             Listar Produtos
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.ProdutoController.GetAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.BuscarProdutoPorIdRequest,Produtos.Application.Responses.ProdutoResponse},System.Guid,System.Threading.CancellationToken)">
+             <summary>
+             Buscar Produto por id
+             </summary>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Produtos.Api.Controllers.ProdutoController.DeleteAsync(Produtos.Application.Interfaces.UseCases.Base.IUseCaseBase{Produtos.Application.Requests.RemoverProdutoRequest,System.Boolean},System.Guid,System.Threading.CancellationToken)">
+             <summary>
+             Remover Produto por id
+             </summary>
+             <returns></returns>
+            
+        </member>
+    </members>
+</doc>
