@@ -26,6 +26,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UsePathBase($"/product");
+
 app.UseSwaggerDocumentation();
 
 //Enabled to run migrations

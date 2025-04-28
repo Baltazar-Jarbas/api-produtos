@@ -18,9 +18,9 @@ namespace Produtos.Api.Controllers
         /// <returns></returns>
         ///
         [HttpPost]
-        [SwaggerResponse(StatusCodes.Status201Created, null, typeof(ProdutoResponse))]
+        [SwaggerResponse(StatusCodes.Status200OK, null, typeof(ProdutoResponse))]
         public async Task<ActionResult<ProdutoResponse>> PostAsync(IUseCaseBase<CriarProdutoRequest, ProdutoResponse> useCase, [FromBody] CriarProdutoRequest request, CancellationToken cancellationToken)
-            => ResponsePost("", "", await useCase.Handle(request, cancellationToken));
+            => ResponseGet(await useCase.Handle(request, cancellationToken));
 
         /// <summary>
         /// Editar Produto

@@ -13,11 +13,11 @@ namespace Produtos.Api.Configurations.Swagger
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("Produtos",
+                c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
                         Title = $"Produtos.Api",
-                        Version = "V1",
+                        Version = "1.0.0",
                         Description = "Gerenciamento de produtos"
                     });
 

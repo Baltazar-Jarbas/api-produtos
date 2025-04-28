@@ -18,9 +18,9 @@ namespace Produtos.Api.Controllers
         /// <returns></returns>
         ///
         [HttpPost]
-        [SwaggerResponse(StatusCodes.Status201Created, null, typeof(CategoriaResponse))]
+        [SwaggerResponse(StatusCodes.Status200OK, null, typeof(CategoriaResponse))]
         public async Task<ActionResult<CategoriaResponse>> PostAsync(IUseCaseBase<CriarCategoriaRequest, CategoriaResponse> useCase, [FromBody] CriarCategoriaRequest request, CancellationToken cancellationToken)
-            => ResponsePost("", "", await useCase.Handle(request, cancellationToken));
+            => ResponseGet(await useCase.Handle(request, cancellationToken));
 
         /// <summary>
         /// Editar Categoria
